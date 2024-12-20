@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>landing page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="section">
+            <header>
+                <div class="logo">⚽</div>
+                <nav>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">product</a></li>
+                        <li><a href="#">news</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="content">
+                <div class="text">
+                    <h2>it is about football teams</h2>
+                    <p>these are some of the most pouplour teams in the world</p>
+                    <button><a href="#">all product</a></button>
+                </div>
+                <div class="image">
+                    <img src="/photos/FB_IMG_1524070952215.jpg" id="main">
+                </div>
+            </div>
+            <div class="icons">
+                <img onclick="photos(this.src);  colors('linear-gradient(red -65%, black)')" src="/photos/FB_IMG_1524070952215.jpg" >
+                <img onclick="photos(this.src);  colors('linear-gradient(red, white)')" src="/photos/FB_IMG_1524070955481.jpg" >
+                <img onclick="photos(this.src);  colors('linear-gradient(white -60%, black)')" src="/photos/FB_IMG_1524070962710.jpg" >
+                <img onclick="photos(this.src);  colors('rgb(128,0,0)')" src="/photos/FB_IMG_1524070964711.jpg" >
+                <img onclick="photos(this.src);  colors('#eee')" src="/photos/FB_IMG_1524070966422.jpg" >
+                <img onclick="photos(this.src);  colors('linear-gradient(yellow -60%, black 80%)')" src="/photos/FB_IMG_1524070969871.jpg" >
+                <img onclick="photos(this.src);  colors('linear-gradient(blue -65%, white)')" src="/photos/FB_IMG_1524070973328.jpg" >
+            </div>
+        </section> 
+        <script src="index.js"></script>
+    </body>
+</html>
