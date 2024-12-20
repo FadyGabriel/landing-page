@@ -4,11 +4,9 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     text-transform: capitalize;
 }
-
 section {
     background: linear-gradient(red -65%, black);
     min-height: 100vh;
@@ -16,7 +14,6 @@ section {
     overflow: hidden;
     position: relative;
 }
-
 header {
     width: 75%;
     margin: 0 auto;
@@ -32,12 +29,10 @@ nav ul li {
     margin-left: 15px;
     display: inline-block;
 }
-
 nav ul li a {
     text-decoration: none;
     color: white;
 }
-
 .content {
     display: flex;
     justify-content: space-between;
@@ -45,62 +40,51 @@ nav ul li a {
     width: 75%;
     margin: 25px auto;
 }
-
 .text {
     width: 40%;
     color: white;
 }
-
 .text h2 {
     font-size: 45px;
     text-transform: uppercase;
 }
-
 .text p {
     font-size: 18px;
     margin: 20px 0;
     line-height: 1.5;
 }
-
 button {
     width:  100px;
     height: 30px;
     border-radius: 15px;
 }
-
 button a {
     text-decoration: none;
     padding: 10px;
     color: black;
 }
-
 .image {
     width: 30%;
 }
-
 .image img {
     width: 30vw;
     max-height: 75vh;
 }
-
 .icons {
     position: absolute;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
 }
-
 .icons img {
     width: 50px;
     margin-left: 5px;
     transition: 0.5s;
     cursor: pointer;
 }
-
 .icons img:hover {
     transform: scale(1.25);
 }
-
 @media (max-width: 500px) {
     .content {
         display: block;
@@ -119,4 +103,3 @@ button a {
         width: 100%;
     }
 }
-
