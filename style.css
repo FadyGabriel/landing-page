@@ -103,3 +103,9 @@ button a {
         width: 100%;
     }
 }
+
+@media (max-width: 500px) {
+    .icons img {
+        width: 25px;
+    }
+}
